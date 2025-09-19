@@ -1,32 +1,30 @@
 body{
-    font-family:"Playfair Display", sans-serif;
     background-color: black;
-    color: whitesmoke;
-    margin:opx;
+    color: white;
+    margin: 0px;
 }
 
 header{
-    font-size: 20px;
-    border-bottom: solid 2px rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(255, 255, 255);
+    border-bottom: double 4px rgb(42, 122, 228);
+    padding: 25px;
+    font-size: 35px;
+    color: rgb(42, 122, 228);
 }
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 p{
-    font-size: 15;
+    font-size: 20px;
 }
 
 section{
-    background-color: rgba(156, 129, 92, 0.984);
+    background-color: rgb(117, 143, 237);
     padding-bottom: 80px;
     padding-top: 80px;
-    display: flex;
-    justify-content:center;
+    display:flex;
+    justify-content: center;
 }
 
 .chamada-texto{
@@ -34,22 +32,17 @@ section{
 }
 
 img{
-    opacity:0,5;
     height: 100px;
 }
 
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid rgb(58, 0, 128);
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.categoria-videos {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-}
-
-section {
-  padding-left: 20px;
-  padding-right: 20px;
+.categoria-videos img{
+    opacity: 0.5;
 }
