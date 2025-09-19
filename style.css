@@ -43,3 +43,13 @@ img{
     border: 3px solid rgb(58, 0, 128);
 }
 
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
