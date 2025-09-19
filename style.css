@@ -19,7 +19,14 @@ h1{
 
 p{
     font-size: 15;
-    
+}
+
+section{
+    background-color: rgba(156, 129, 92, 0.984);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center;
 }
 
 
